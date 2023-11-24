@@ -3,7 +3,7 @@ VERSION --use-function-keyword 0.7
 FROM busybox:1.32.0
 
 FUNC:
-    FUNCTION
+    COMMAND
     RUN --no-cache echo hello from FUNC
 
 hello:
