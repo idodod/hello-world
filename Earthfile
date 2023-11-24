@@ -3,7 +3,7 @@ VERSION 0.7
 FROM busybox:1.32.0
 
 FUNC:
-    COMMAND
+    FUNCTION
     RUN --no-cache echo hello from FUNC
 
 hello:
