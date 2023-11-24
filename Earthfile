@@ -2,6 +2,10 @@ VERSION 0.7
 
 FROM busybox:1.32.0
 
+FUNC:
+    COMMAND
+    RUN --no-cache echo hello from FUNC
+
 hello:
     ARG name=world
     COPY globe.txt /globe.txt
